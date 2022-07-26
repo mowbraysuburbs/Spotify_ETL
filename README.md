@@ -1,11 +1,11 @@
 # Spotify_ETL
 
 ## Summary
-Rap Caviar is one of the most popular Spotify has on its platform. It consists of songs mainly from the hip-hop/rap genre. One could argue that this playlist is a good representation of the hip/hop rap genre. The hip/hop rap genre changes and develops over time based on various factors such as culture, technology, influences of other genres, etc. 
+Rap Caviar is one of the most popular playlists Spotify has on its platform. It consists of songs mainly from the hip-hop/rap genre. One could argue that this playlist is a good representation of the hip/hop rap genre. The hip/hop rap genre changes and develops over time based on various factors such as culture, technology, influences of other genres, etc. 
 
 When you upload a song to Spotify, assigns various attributes or audio features to the song which is used for automated music recommendations. More information regarding Spotify audio features can be seen here: (https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)
 
-Assuming that Rap Caviar is a good representation of the hip/hop rap genre, this projects seeks to investigate change in trends in the genre based on the playlists overall audio features. This will be achieved by creating a ETL pipeline using AWS.
+Assuming that Rap Caviar is a good representation of the hip/hop rap genre, this project seeks to investigate any change in the genre over time based on the playlist's audio features.  The playlist's overall audio features will be based on the average audio features (and other statistical values) from all the tracks in the playlists. This will be achieved by creating a ETL pipeline using AWS which scrapes and transforms this data i.e. audio features from Spotify's API every week. After significant amount of weeks have passed, one will be able to see any changes within the genre.
 
 ## TODO 
 
