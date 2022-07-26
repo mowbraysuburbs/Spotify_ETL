@@ -5,7 +5,8 @@ Rap Caviar is one of the most popular playlists Spotify has on its platform. It 
 
 When you upload a song to Spotify, assigns various attributes or audio features to the song which is used for automated music recommendations. More information regarding Spotify audio features can be seen here: (https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)
 
-Assuming that Rap Caviar is a good representation of the hip/hop rap genre, this project seeks to investigate any change in the genre over time based on the playlist's audio features.  The playlist's overall audio features will be based on the average audio features (and other statistical values) from all the tracks in the playlists. This will be achieved by creating a ETL pipeline using AWS which scrapes and transforms this data i.e. audio features from Spotify's API every week. After significant amount of weeks have passed, one will be able to see any changes within the genre.
+Assuming that Rap Caviar is a good representation of the hip/hop rap genre, this project seeks to investigate any change in the genre over time based on the playlist's audio features.  The playlist's audio features is based on the average audio features (and other statistical values) from all the tracks in the playlists. This will be achieved by creating a ETL pipeline using AWS which scrapes and transforms this data i.e. audio features from Spotify's API every week. After significant amount of weeks have passed, one will be able to see any changes within the genre.
+
 
 ## TODO 
 
