@@ -20,4 +20,5 @@ I do not know whether this is the best way or the correct method of doing things
 - Use transformed data for dashboard in Tableau
 
 ## ETL Diagram
-(to be confirmed)
+
+![image](https://user-images.githubusercontent.com/60255967/182576618-3068e27f-c192-4e76-baea-a502b0905fc3.png)
