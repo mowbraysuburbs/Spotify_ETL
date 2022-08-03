@@ -22,3 +22,8 @@ I do not know whether this is the best way or the correct method of doing things
 ## ETL Diagram
 
 ![image](https://user-images.githubusercontent.com/60255967/182576618-3068e27f-c192-4e76-baea-a502b0905fc3.png)
+
+## Data Model
+
+![image](https://user-images.githubusercontent.com/60255967/182602106-38d073f3-be4a-4629-850e-aba3aab7524e.png)
+
