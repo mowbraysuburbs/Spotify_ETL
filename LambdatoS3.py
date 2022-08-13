@@ -23,8 +23,8 @@ def lambda_handler(event, context):
   #stores in lambda temp folder
   tmp_file = f"/tmp/{filename}"
 
-  sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="c24b9f9df8a04725bcf2e0e8538be3a6",
-                                                        client_secret="8c5cb06ac1ac46e19f37bc9d6b323695"))
+  sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="insert",
+                                                        client_secret="insert"))
                                                         
   #gets info off all songs in playlist
   playlist = sp.playlist_items(playlist_id = playlists_vault['rap_caviar'])
