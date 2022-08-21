@@ -26,4 +26,5 @@ I do not know whether this is the best way or the correct method of doing things
 
 ## Data Model
 
+![image](https://user-images.githubusercontent.com/60255967/185810837-a497a8ac-ba25-4ed6-af81-912e5fd4fd51.png)
 
