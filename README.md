@@ -8,16 +8,6 @@ When you upload a song to Spotify, assigns various attributes or audio features 
 Assuming that Rap Caviar is a good representation of the hip/hop rap genre, this project seeks to investigate any change in the genre over time based on the playlist's audio features.  The playlist's audio features is based on the average audio features (and other statistical values) from all the tracks in the playlists. This will be achieved by creating a ETL pipeline using AWS which scrapes and transforms this data i.e. audio features from Spotify's API every week. After significant amount of weeks have passed, one will be able to see any changes within the genre.
 
 
-## TODO 
-
-Note:
-I do not know whether this is the best way or the correct method of doing things. List will be amended as I progress thru the project. 
-
-- Extract playlist from Spotify API on a weekly base using AWS (using AWS Lambda (I think) for the extraction and the automate this weekly using Amazon CloudWatch Events (I think) )
-- Send raw data from Spotify API into AWS S3 - This will be the data lake
-- Convert the songs in the playlists to find the common statistical values (mean, medium, std dev, etc) based on the Spotify songs attributes using AWS Glue and Apache Spark
-- Place transformed data into another S3 (this is will the data warehouse)
-- Use transformed data for dashboard in Tableau
 
 ## ETL Diagram
 
@@ -26,5 +16,5 @@ I do not know whether this is the best way or the correct method of doing things
 
 ## Data Model
 
-![image](https://user-images.githubusercontent.com/60255967/185810837-a497a8ac-ba25-4ed6-af81-912e5fd4fd51.png)
+![image](https://user-images.githubusercontent.com/60255967/185810893-9a061205-4751-4fc7-bd45-5e06c86c49c4.png)
 
