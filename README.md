@@ -1,7 +1,7 @@
 # Spotify's Rap Caviar playlist ETL pipeline using AWS (...& Databricks)
 
 <p align="center">
-  <img src="https://www.pc.co.il/wp-content/uploads/2016/06/AWS600.jpg" />
+  <img src="https://user-images.githubusercontent.com/60255967/187083716-ccfeb92b-da2a-454f-add6-234663292e32.png" />
 </p>
 
 <p align="center">
