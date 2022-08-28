@@ -20,8 +20,8 @@ filename = f"{datelabel}_Spotify_playlist_{playlist_name}.csv"
 
 def lambda_handler(event, context):
 
-  CLIENT_ID = "c24b9f9df8a04725bcf2e0e8538be3a6"
-  CLIENT_SECRET = "8c5cb06ac1ac46e19f37bc9d6b323695"
+  CLIENT_ID = "Your ID here"
+  CLIENT_SECRET = "Your ID here"
 
   sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=CLIENT_ID,
                                                   client_secret=CLIENT_SECRET))
