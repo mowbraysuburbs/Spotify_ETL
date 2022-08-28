@@ -5,8 +5,10 @@
 </p>
 
 <p align="center">
-Using an ETL pipeline to investigate the change in hip-hop/rap genre over time (Remind me to check on this repo in a year so I can provide a fancy graph).
+Using an ETL pipeline to investigate the change in hip-hop/rap genre over time </p>
+<p align="center">(Remind me to check on this repo in a year so I can provide a fancy graph).
 </p>
+
 
 ## Table of Contents
 - [Introduction](#introduction)
