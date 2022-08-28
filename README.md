@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Using an ETL pipeline to investigate the change in hip-hop/rap genre over time. Remind me to check on this repo in a year so I can provide a fancy graph.
+Using an ETL pipeline to investigate the change in hip-hop/rap genre over time (Remind me to check on this repo in a year so I can provide a fancy graph).
 </p>
 
 ## Table of Contents
@@ -24,14 +24,12 @@ Using an ETL pipeline to investigate the change in hip-hop/rap genre over time. 
 
 ## Introduction
 ### Purpose
-This project investigate any change in hip-hop/rap over time based on Spotify's playlist, 'Rap Caviar's overall audio features statistical values (i.e. mean, std, max & min) using an ETL process on Amazon Web Services (AWS) and Databricks.
+This project investigate any change in hip-hop/rap over time based on Spotify's playlist, '[Rap Caviar](https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd)'s overall audio features statistical values (i.e. mean, std, max & min) using an ETL process on Amazon Web Services (AWS) and Databricks.
 
 ### Background
 Rap Caviar is one of the most popular playlists on Spotify. It consists of songs mainly from the hip-hop/rap genre. You could argue that this playlist is a good representation of the hip-hop/rap genre. As with any music genre, it changes and develops over time based on various factors such as culture, technology, influences of other genres, etc.
 
-When you upload a song to Spotify, assigns various attributes or audio features to the song which is used for automated music recommendations/suggestions. More information regarding Spotify audio features can be seen [here](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features).
-
-Assuming that Rap Caviar is a good representation of the hip/hop rap genre,  The playlist's audio features are based on the average audio features (and other statistical values) from all the tracks in the playlists. This will be achieved by creating an ETL pipeline using AWS, which scrapes and transforms this data i.e. audio features from Spotify's API every week. After a significant amount of weeks have passed, one will be able to see any changes within the genre.
+When you upload a song to Spotify, assigns various [audio features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features) to the song which is used for automated song recommendations. Assuming that Rap Caviar is a good representation of the hip/hop rap genre, The playlist's audio features are based on the average audio features (and other statistical values) from all the tracks in the playlists. This will be achieved by creating an ETL pipeline using AWS, which scrapes and transforms this data i.e. audio features from Spotify's API every week. After a significant amount of weeks have passed, one will be able to see any changes within the genre.
 
 ### Technologies
 - AWS Lambda
@@ -52,7 +50,7 @@ Assuming that Rap Caviar is a good representation of the hip/hop rap genre,  The
 
 ## Installation 
 ### Spotify API
-First, need to create an account with Spotify for Developers [here](https://developer.spotify.com/dashboard/). Thereafter, create an app to get your account's Client ID and Client Secret ID.
+First, need to create an account with [Spotify for Developers](https://developer.spotify.com/dashboard/). Thereafter, create an app to get your account's Client ID and Client Secret ID.
 
 ### Identity and Access Management (IAM)
 AWS Access Key and Secret Key are required for Databricks to read files within the S3 bucket in your AWS account. Create a user under the 'Access management-Users' tab. Once the user has been created, download the credential information of your account (in a .csv format). 
@@ -128,7 +126,7 @@ As shown in the ETL pipeline, the second lambda function, 'Spotify_audio_feature
 Databricks community edition, a free version provided by Databricks, was used for this project. As mentioned previously, the AWS account's credential information file (containing access and secret key) was retrieved from AWS IAM and will be used to mount the S3 bucket to the Databricks cluster to read files. Create your cluster, thereafter, your AWS credential information file can be uploaded to Databricks. Click the Data icon and then click the Create Table button. Drag or upload your credential information file onto Databricks. See below for storage information. Note the DBFS Target Directory. This will be the location of the credential information file.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/60255967/187021435-1cde537f-233c-4363-8311-6464f329d5ca.png)" />
+  <img src="https://user-images.githubusercontent.com/60255967/187021435-1cde537f-233c-4363-8311-6464f329d5ca.png" />
 </p>
 
 The code was written using Pyspark. Create a notebook and copy code from 'Databricks_ETL_Pyspark.py" in the repo. For Databricks to gain access to the data, the S3 bucket will have to be mounted on the cluster. This will only need to be done once per cluster.
