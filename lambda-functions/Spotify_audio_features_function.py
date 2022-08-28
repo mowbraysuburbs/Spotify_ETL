@@ -36,8 +36,9 @@ def lambda_handler(event, context):
     
     bucket_name = "audio-features-spotify"
 
-    CLIENT_ID= "c24b9f9df8a04725bcf2e0e8538be3a6"
-    CLIENT_SECRET = "8c5cb06ac1ac46e19f37bc9d6b323695"
+    CLIENT_ID= "Insert ID here" 
+ 
+    CLIENT_SECRET = "Insert ID here"
     
     sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
                         client_id=CLIENT_ID, 
