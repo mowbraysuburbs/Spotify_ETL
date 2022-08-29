@@ -46,7 +46,7 @@ When you upload a song to Spotify, assigns various [audio features](https://deve
 ![image](https://user-images.githubusercontent.com/60255967/187020773-7afaeae8-6117-4694-8b77-5a560f1470c3.png)
 
 ### Data Model
-![image](https://user-images.githubusercontent.com/60255967/187020801-e22fdbed-c1ff-4a1c-b11e-e960b7101f3d.png)
+![image](https://user-images.githubusercontent.com/60255967/187250813-65793ee0-ec46-48c4-9987-f8c5e830bb41.png)
 
 *(Return to [Table of Contents](#table-of-contents))*
 
