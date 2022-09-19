@@ -31,7 +31,7 @@ This project investigates any change in hip-hop/rap over time based on Spotify's
 ### Background
 Rap Caviar is one of the most popular playlists on Spotify. It consists of songs mainly from the hip-hop/rap genre. One could argue that this playlist is a good representation of the hip-hop/rap genre. As with any music genre, it changes and develops over time based on various factors such as culture, technology, influences of other genres, etc.
 
-When you upload a song to Spotify, assigns various [audio features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features) to the song which is used for automated song recommendations. The playlist's audio features are based on the statistical values of various the audio features from the tracks in the playlists. This was achieved by creating an ETL pipeline using AWS and Databricks, which scrapes and transforms this data (audio features) from Spotify's API every week. After a significant amount of weeks have passed, one will be able to see any changes within the genre.
+When you upload a song to Spotify, assigns various [audio features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features) to the song which was used for automated song recommendations. The playlist's audio features were based on the statistical values of various the audio features from the tracks in the playlists. This was achieved by creating an ETL pipeline using AWS and Databricks, which scrapes and transforms this data (audio features) from Spotify's API every week. After a significant amount of weeks have passed, one will be able to see any changes within the genre.
 
 ### Technologies
 - AWS Lambda
