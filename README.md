@@ -26,7 +26,7 @@ Using an ETL pipeline to investigate the change in hip-hop/rap genre over time <
 
 ## Introduction
 ### Purpose
-This project investigate any change in hip-hop/rap over time based on Spotify's playlist, '[Rap Caviar](https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd)'s overall audio features statistical values (i.e. mean, std, max & min) using an ETL process on Amazon Web Services (AWS) and Databricks.
+This project investigates any change in hip-hop/rap over time based on Spotify's playlist, '[Rap Caviar](https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd)'s overall audio features statistical values (i.e. mean, std, max & min) using an ETL process on Amazon Web Services (AWS) and Databricks.
 
 ### Background
 Rap Caviar is one of the most popular playlists on Spotify. It consists of songs mainly from the hip-hop/rap genre. You could argue that this playlist is a good representation of the hip-hop/rap genre. As with any music genre, it changes and develops over time based on various factors such as culture, technology, influences of other genres, etc.
